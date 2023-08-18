@@ -1,8 +1,8 @@
 import random
 
-def main():
 
-    secret_number = random.randint(1,100)
+def main():
+    secret_number = random.randint(1, 100)
 
     i = 0
     while i < 5:
@@ -15,10 +15,11 @@ def main():
             print("Secret number is lesser than this number.")
         else:
             print("Secret number is bigger than this number.")
-        
+
         i += 1
-        
+
     print(f"The secret number is {secret_number}.")
+
 
 if __name__ == "__main__":
     main()
